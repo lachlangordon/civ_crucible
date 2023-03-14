@@ -2,7 +2,7 @@ creature_equipment
 
 [OBJECT:CREATURE]
 
-[CREATURE:EQUIPMENT_WAGON]
+[CUT_CREATURE:EQUIPMENT_WAGON][CREATURE:EQUIPMENT_WAGON]
 	[DESCRIPTION:A rolling platform for carrying passengers or cargo.]
 	[NAME:wagon:wagons:wagon]
 	[CASTE_NAME:wagon:wagons:wagon]

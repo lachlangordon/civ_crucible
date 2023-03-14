@@ -1,0 +1,4 @@
+body_insect
+
+[OBJECT:BODY]
+

@@ -2,7 +2,7 @@ creature_fanciful
 
 [OBJECT:CREATURE]
 
-[CREATURE:CHIMERA]
+[CUT_CREATURE:CHIMERA][CREATURE:CHIMERA]
 	[NAME:chimera:chimeras:chimeric]
 	[CREATURE_TILE:'C'][COLOR:2:0:1]
 	[FANCIFUL]
@@ -10,7 +10,7 @@ creature_fanciful
 	[PREFSTRING:terrifying features]
 	[ALL_ACTIVE]
 
-[CREATURE:CENTAUR]
+[CUT_CREATURE:CENTAUR][CREATURE:CENTAUR]
 	[NAME:centaur:centaurs:centaur]
 	[CREATURE_TILE:'C'][COLOR:6:0:0]
 	[FANCIFUL]
@@ -24,7 +24,7 @@ creature_fanciful
 		[CASTE_NAME:centaur:centaurs:centaur]
 		[MALE]
 
-[CREATURE:GRIFFON]
+[CUT_CREATURE:GRIFFON][CREATURE:GRIFFON]
 	[NAME:griffon:griffons:griffon]
 	[CASTE_NAME:griffon:griffons:griffon]
 	[CREATURE_TILE:'G'][COLOR:7:0:1]
