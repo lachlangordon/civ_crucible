@@ -1,0 +1,15 @@
+[ID:crucible_creature_tweaks]
+[NUMERIC_VERSION:5006]
+[DISPLAYED_VERSION:1.0.3]
+[EARLIEST_COMPATIBLE_NUMERIC_VERSION:5001]
+[EARLIEST_COMPATIBLE_DISPLAYED_VERSION:50.01]
+[AUTHOR:Snow Gibbon]
+[NAME:Civ Crucible - Vanilla Tweaks]
+[DESCRIPTION:Various tweaks to distribution and behaviour of vanilla plants and animals to make things Fun but not too Fun.]
+
+[STEAM_CHANGELOG:Update for entity compatibility, hopefully. Further tweaked some tropical fruit trees frequency. Added mules as another universally available domestic animal to ensure entities have at least one pack animal to use for trade. Also added chickens because of their near-universal spread even in our own ancient time despite being descended from junglefowl.]
+
+[STEAM_FILE_ID:2909310497]
+[STEAM_TAG:balance]
+[STEAM_TAG:difficulty]
+[STEAM_TAG:tweak]

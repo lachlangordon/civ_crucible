@@ -1,0 +1,101 @@
+Trees
+
+Teak
+Ebony
+Sal
+Fig
+Casuarina
+Poplar
+Aspen
+Fir
+Spruce
+Beech
+Yew
+Juniper
+Eucalyptus (wet red gum, dry other variations)
+Rhododendron
+Hickory
+Miombo
+
+Succulents
+
+Ferns
+
+Palms
+
+Improve mangrove/swamp living
+
+Wild versions
+Barley
+Buckwheat
+Oat
+Alfalfa
+Rye
+Rice
+
+Cassava flour
+Chickpea flour
+Lettuce seed oil
+Parsnip sugar
+Red bean paste
+Rhubarb dye
+Soy milk
+almond meal
+almond milk
+almond oil
+hazelnut meal
+chestnut meal
+buckwheat flour from seeds
+quinoa flour from seeds
+kaniwa flour from seeds
+pendant armaranth dye
+carrot flower dye
+
+Extract seeds from 
+    Bambara groundnut pods
+    String bean pods
+    Broad bean pods
+    Chickpea pods
+    Cowepa pods
+    Lentil pods
+    Mung bean pods
+    Pea pods
+    Peanut pods
+    Red bean pods
+    Soybean pods
+    Urad bean pods
+
+Realistic plant fiber material attributes
+
+Full coconut implementation - coir, milk, oil, flour, palm hearts
+Break open paradise nuts, cacao pods, chestnuts to extract edible beans
+Soaps from new oils - Candlenut, cacao, date
+realistic wheat threshing
+
+Remove seeds from fruit shrubs
+
+Meat revaluation
+Animal silk and plant price rebalance
+more trash pandas
+rework the sexual dimorphism
+Rework child growth ages
+
+limb abilities for trunks and prehensile tails
+ocelli for dragonflies, damselflies, bees?
+elytra for beetles
+
+buff goblins - more pop in worldgen
+buff elves - trapavoid
+buff amphibian men - poison on secretion
+
+Legs for aquatic animal people
+
+Vicuna
+Onager
+Guanaco
+Wildcat
+Aurochs
+
+
+
+Giant creature function: 7x + 200000
