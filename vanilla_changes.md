@@ -1,3 +1,9 @@
+# Changelog from vanilla
+
+## Creatures
+
+### Amphibians
+
 TOAD
 - added ANY_TEMPERATE_WETLAND, ANY_TEMPERATE_FOREST, SHRUBLAND_TEMPERATE
 - removed butcherable materials
@@ -6,8 +12,12 @@ TOAD
 GIANT_TOAD
 - added LARGE_PREDATOR, AMBUSHPREDATOR
 
+### Annelids
+
 WORM
 - removed butcherable materials
+
+### Birds
 
 BIRD_BLUEJAY
 - removed GRASSLAND_TEMPERATE
@@ -86,6 +96,8 @@ BIRD_OSTRICH
 
 BIRD_OSTRICH_GIANT
 - added LARGE_PREDATOR
+
+### New birds
 
 BIRD_CROW
 - added VERMIN_EATER, PENETRATEPOWER:2
@@ -250,6 +262,8 @@ BUSHTIT
 GIANT_BUSHTIT
 - added LARGE_PREDATOR
 
+### New bugs and slugs
+
 DAMSELFLY
 - added ANY_LAKE
 - females are aquamarine, males are aqua (brighter)
@@ -292,6 +306,8 @@ TERMITE
 GIANT_BROWN_RECLUSE_SPIDER
 - added LARGE_PREDATOR
 
+### New desert
+
 GECKO_LEOPARD
 - males larger
 
@@ -308,6 +324,8 @@ GILA_MONSTER
 
 GIANT_GILA_MONSTER
 - added LARGE_PREDATOR
+
+### Domestic
 
 MULE
 - removed BENIGN
@@ -390,6 +408,8 @@ TURKEY
 RABBIT
 - verminised
 
+### Insects
+
 DRAGONFLY
 - added ANY_LAKE
 - added CARNIVORE
@@ -397,12 +417,16 @@ DRAGONFLY
 GIANT_DRAGONFLY
 - added LARGE_PREDATOR
 
+### Large mountain
+
 GOAT_MOUNTAIN
 - males no longer benign, gained FLEEQUICK
 - males larger
 
 MARMOT_HOARY
 - males larger
+
+### Large ocean
 
 WALRUS
 - removed BENIGN
@@ -462,6 +486,8 @@ FISH_HALIBUT
 NARWHAL
 - males larger
 
+### Large river/lake
+
 HIPPO
 - removed BENIGN
 - prone to rage
@@ -477,6 +503,8 @@ PLATYPUS
 
 PLATYPUS, GIANT
 - added LARGE_PREDATOR
+
+### Large temperate
 
 BEAR_GRIZZLY
 - males larger
@@ -547,6 +575,8 @@ BADGER
 MOOSE
 - removed BENIGN, added FLEEQUICK
 - removed ANY_TEMPERATE_FOREST, added FOREST_TEMPERATE_CONIFER
+
+### Large tropical
 
 ELEPHANT
 - added SAVANNA_TROPICAL
@@ -667,6 +697,8 @@ GIANT TORTOISE
 - added ANY_TROPICAL_MARSH
 - clutch size to 3:6 from 5:10
 
+### Large tundra
+
 MUSKOX
 - removed GRASSLAND_TEMPERATE
 - males much larger
@@ -680,12 +712,16 @@ BEAR_POLAR
 - added OCEAN_ARCTIC
 - males larger
 
+### New mountain
+
 WOLVERINE
 - males larger
 
 CHINCHILLA
 - verminised
 - females larger
+
+### New underground
 
 CRUNDLE
 - clutch size to 3:5 from 5:20
@@ -704,6 +740,8 @@ ELEMENTMAN_GABBRO
 
 ELEMENTMAN_AMETHYST
 - new throw attack
+
+### New ocean
 
 OCTOPUS_MAN
 - added AMPHIBIOUS
@@ -755,8 +793,12 @@ NAUTILUS
 NAUTILUS_MAN
 - added AMPHIBIOUS
 
+### Other
+
 FOXSQUIRREL
 - reduced size to 1500 from 2000
+
+### Reptiles
 
 LIZARD
 - removed NOT_FREEZING
@@ -784,6 +826,8 @@ GIANT_ANOLE
 IGUANA
 - added ANY_TROPICAL_SWAMP
 - males larger
+
+### New river/lake/pool
 
 RIVER OTTER
 - males larger
@@ -813,6 +857,8 @@ POND_TURTLE
 - added ANY_LAKE
 - clutch size to 1:7 from 1:15
 
+### New small mammals
+
 HAMSTER
 - removed NOT_FREEZING, added GRASSLAND_TEMPERATE, ANY_DESERT
 
@@ -822,6 +868,8 @@ HEDGEHOG
 SQUIRREL_FLYING
 - added ANY_TROPICAL_FOREST
 
+### Small mammals
+
 SQUIRREL_GRAY
 - removed ANY_TEMPERATE_FOREST, added FOREST_TEMPERATE_BROADLEAF
 
@@ -830,6 +878,8 @@ SQUIRREL_RED
 
 CHIPMUNK
 - removed ANY_TEMPERATE_FOREST, added FOREST_TEMPERATE_CONIFER, SHRUBLAND_TEMPERATE
+
+### Small ocean
 
 FISH_RAY_BAT
 - females larger
@@ -846,6 +896,8 @@ SQUID
 SQUID_MAN
 - added AMPHIBIOUS
 
+### Small river/lake
+
 FISH_LUNGFISH
 - females larger
 
@@ -858,6 +910,8 @@ FISH_MOLLY_SAILFIN
 
 FISH_GUPPY
 - females larger
+
+### Standard
 
 ELF
 - added TRAPAVOID
@@ -881,6 +935,8 @@ BEAK_DOG
 ROC
 - clutch size to 1:1 from 1:2
 
+### Subterranean
+
 CROCODILE_CAVE
 - un-removed leather
 - clutch size to 10:30 from 20:60
@@ -893,6 +949,8 @@ ELEMENTMAN_MAGMA
 
 ELEMENTMAN_MUD
 - new throw attack
+
+### New temperate
 
 WILD_BOAR
 - males have tusks
@@ -1019,6 +1077,8 @@ OPOSSUM
 GIANT_OPOSSUM
 - added LARGE_PREDATOR
 
+### New tropical
+
 MONGOOSE
 - added ANY_TROPICAL_WETLAND, FOREST_TROPICAL_DRY_BROADLEAF
 
@@ -1110,6 +1170,8 @@ IMPALA
 AARDVARK
 - added FOREST_TROPICAL_DRY_BROADLEAF
 
+### New tundra/taiga
+
 STOAT
 - verminised
 - added MOUNTAIN
@@ -1124,3 +1186,679 @@ LYNX
 GIANT_LYNX
 - added LARGE_PREDATOR
 
+## Plants
+
+### Crops
+
+SINGLE-GRAIN_WHEAT
+- removed GRASSLAND_TROPICAL, SAVANNA_TROPICAL
+- added GRASSLAND_TEMPERATE, SAVANNA_TEMPERATE, ANY_DESERT
+- added WET
+
+TWO-GRAIN_WHEAT
+- removed GRASSLAND_TROPICAL, SAVANNA_TROPICAL
+- added ANY_GRASSLAND, ANY_SAVANNA, MARSH_TEMPERATE_FRESHWATER, MARSH_TROPICAL_FRESHWATER
+- reduced frequency to 25
+
+SOFT_WHEAT
+- removed GRASSLAND_TROPICAL, SAVANNA_TROPICAL
+- added ANY_GRASSLAND, ANY_SAVANNA
+- set frequency to 0, artificial hybrid
+
+HARD_WHEAT
+- set frequency to 0, artificial hybrid
+
+SPELT
+- set frequency to 0, artificial hybrid
+
+BARLEY
+- set frequency to 25
+
+BUCKWHEAT
+- removed FOREST_TROPICAL_DTY_BROADLEAF
+- added SHRUBLAND_TEMPERATE, ANY_TEMPERATE_FOREST
+- set frequency to 0, grows way past native range
+
+OATS
+- added TUNDRA
+- set frequency to 0, grows way past native range
+
+ALFALFA
+- removed NOT_FREEZING
+- added ANY_TEMPERATE
+- set frequency to 0, grows way past native range
+
+RYE
+- removed NOT_FREEZING
+- added ANY_TEMPERATE
+- set frequency to 0, grows way past native range
+
+RICE
+- removed DRY
+- removed ANY_TROPICAL
+- added ANY_TROPICAL_WETLAND, ANY_TEMPERATE_WETLAND
+
+MAIZE
+- set frequency to 0, resembles nothing like wild progenitor plants
+
+QUINOA
+- removed ANY_TEMPERATE
+- added SHRUBLAND_TEMPERATE, GRASSLAND_TEMPERATE, SAVANNA_TEMPERATE
+
+KANIWA
+- removed ANY_TEMPERATE
+- added SHRUBLAND_TEMPERATE
+
+BITTER_VETCH
+- removed ANY_TEMPERATE
+- added SHRUBLAND_TEMPERATE, SAVANNA_TEMPERATE, GRASSLAND_TEMPERATE
+
+PENDANT_AMARANTH
+- removed ANY_TROPICAL
+- added ANY_SHRUBLAND
+
+BLOOD_AMARANTH
+- removed ANY_TROPICAL
+- added SHRUBLAND_TROPICAL, SAVANNA_TROPICAL
+
+PURPLE_AMARANTH
+- removed ANY_TEMPERATE
+- added SHRUBLAND_TEMPERATE, SAVANNA_TEMPERATE, GRASSLAND_TEMPERATE, ANY_TEMPERATE_FOREST
+
+RED_SPINACH
+- removed NOT_FREEZING
+- added ANY_SHRUBLAND, ANY_SAVANNA, ANY_GRASSLAND
+
+ELEPHANT-HEAD_AMARANTH
+- removed ANY_TROPICAL
+- added SHRUBLAND_TROPICAL, SAVANNA_TROPICAL, GRASSLAND_TROPICAL
+
+PEARL_MILLET
+- added WET
+- removed ANY_TROPICAL
+- added GRASSLAND_TROPICAL, ANY_DESERT
+
+WHITE_MILLET
+- removed ANY_TEMPERATE
+- added GRASSLAND_TEMPERATE
+
+FINGER_MILLET
+- removed ANY_TEMPERATE
+- added SAVANNA_TROPICAL
+
+FOXTAIL_MILLET
+- removed ANY_TEMPERATE
+- added GRASSLAND_TEMPERATE
+
+FONIO
+- added GRASSLAND_TROPICAL, ANY_DESERT
+
+FLAX
+- added WET
+- set frequency to 0, grows well past native range
+- added IMPACT, COMPRESSIVE, TENSILE, TORSION, SHEAR stats to fiber mat
+
+JUTE
+- added WET
+- removed ANY_TROPICAL
+- added ANY_TROPICAL_WETLAND, SHRUBLAND_TROPICAL
+- added IMPACT, COMPRESSIVE, TENSILE, TORSION, SHEAR stats to fiber mat
+
+HEMP
+- set frequency to 0, original native range unknown
+- added IGNITE_POINT, IMPACT, COMPRESSIVE, TENSILE, TORSION, SHEAR stats to fiber mat
+
+COTTON
+- removed ANY_TROPICAL
+- added SHRUBLAND_TROPICAL, SAVANNA_TROPICAL
+- added IMPACT, COMPRESSIVE, TENSILE, TORSION, SHEAR stats to fiber mat
+- set fiber value to 3
+
+RAMIE
+- removed ANY_TROPICAL
+- added SHRUBLAND_TROPICAL, SAVANNA_TEMPERATE
+- added IMPACT, COMPRESSIVE, TENSILE, TORSION, SHEAR stats to fiber mat
+
+KENAF
+- added WET
+- set frequency to 0, original native range unknown
+- added IGNITE_POINT, IMPACT, COMPRESSIVE, TENSILE, TORSION, SHEAR stats to fiber mat
+
+PAPYRUS
+- added WET
+
+### Garden
+
+ARTICHOKE
+- removed GRASSLAND_TEMPERATE
+- added SAVANNA_TEMPERATE
+
+ASPARAGUS
+- removed ANY_TEMPERATE
+- added GRASS_TEMPERATE, SAVANNA_TEMPERATE, ANY_TEMPERATE_MARSH
+
+BROAD_BEAN
+- set frequency to 0, only exists domestically
+
+BEET
+- added SAVANNA_TEMPERATE, ANY_TEMPERATE_MARSH
+
+BITTER_MELON
+- removed ANY_TROPICAL
+- added SAVANNA_TROPICAL, FOREST_TROPICAL_DRY_BROADLEAF
+
+CABBAGE
+- removed ANY_TEMPERATE
+- added GRASSLAND_TEMPERATE
+- added edibility to leaves
+
+CAPER
+- removed seeds from fruit
+
+WILD_CARROT
+- removed ANY_TEMPERATE
+- added SAVANNA_TEMPERATE, SHRUBLAND_TEMPERATE, ANY_TEMPERATE_FOREST
+
+CELERY
+- removed ANY_TEMPERATE
+- added ANY_TEMPERATE_WETLAND
+
+CHICKPEA
+- removed ANY_TROPICAL
+- added SHRUBLAND_TROPICAL, SAVANNA_TROPICAL, GRASSLAND_TROPICAL
+
+CHICORY
+- removed ANY_TEMPERATE
+- added ANY_TEMPERATE_FOREST, ANY_TEMPERATE_WETLAND, SHRUBLAND_TEMPERATE
+
+COWPEA
+- added ANY_DESERT
+
+CUCUMBER
+- removed seeds from fruit
+
+EGGPLANT
+- removed seeds from fruit
+
+GARDEN_CRESS
+- removed DRY, added WET
+
+GARLIC
+- set frequency to 25
+
+HORNED_MELOM
+- removed ANY_TROPICAL
+- added GRASSLAND_TROPICAL, SAVANNA_TROPICAL, SHRUBLAND_TROPICAL
+- removed seeds from fruit
+
+LEEK
+- removed ANY_TEMPERATE
+- added GRASSLAND_TEMPERATE, SAVANNA_TEMPERATE
+
+LENTIL
+- removed NOT_FREEZING
+- added ANY_GRASSLAND, ANY_SAVANNA, ANY_SHRUBLAND, ANY_FOREST
+
+MUNG_BEAN
+- set frequency to 25
+
+MUSKMELON
+- removed SAVANNA_TROPICAL, SHRUBLAND_TROPICAL
+- added ANY_SAVANNA, ANY_SHRUBLAND
+- removed seeds from fruit
+
+ONION
+- removed ANY_TEMPERATE
+- added ANY_GRASSLAND, ANY_SAVANNA, ANY_SHRUBLAND, ANY_FOREST
+- set frequency to 25
+
+PARSNIP
+- removed ANY_TEMPERATE
+- added GRASSLAND_TEMPERATE
+
+PEA
+- removed ANY_TEMPERATE
+- added SAVANNA_TEMPERATE, SHRUBLAND_TEMPERATE, ANY_TEMPERATE_FOREST
+
+PEPPER
+- removed ANY_TROPICAL
+- added GRASSLAND_TROPICAL, ANY_DESERT
+- added WET
+- removed seeds from fruit
+
+POTATO
+- removed NOT_FREEZING
+- added ANY_GRASSLAND, ANY_SAVANNA, ANY_SHRUBLAND
+
+RADISH
+- set frequency to 0, native plant not known
+
+RED_BEAN
+- removed ANY_TEMPERATE
+- added SAVANNA_TEMPERATE, SHRUBLAND_TEMPERATE, FOREST_TEMPERATE_BROADLEAF
+
+RHUBARB
+- removed ANY_TEMPERATE
+- added GRASSLAND_TEMPERATE, SAVANNA_TEMPERATE
+
+SOYBEAN
+- removed ANY_TEMPERATE
+- added SAVANNA_TROPICAL, GRASSLAND_TROPICAL
+- set frequency to 25
+
+SPINACH
+- removed ANY_TEMPERATE
+- added SAVANNA_TEMPERATE, SHRUBLAND_TEMPERATE, ANY_TEMPERATE_FOREST
+
+SQUASH
+- removed ANY_TROPICAL
+- added ANY_SAVANNA, ANY_SHRUBLAND
+- seeds are edible
+
+SWEET_POTATO
+- removed ANY_TROPICAL
+- added SHRUBLAND_TROPICAL, FOREST_TROPICAL_DRY_BROADLEAF
+- added WET
+
+TARO
+- removed ANY_TROPICAL
+- added ANY_TROPICAL_WETLAND
+
+TURNIP
+- removed ANY_TEMPERATE
+- added SHRUBLAND_TEMPERATE, SAVANNA_TEMPERATE, ANY_TEMPERATE_FOREST
+
+URAD_BEAN
+- removed ANY_TROPICAL
+- added GRASSLAND_TROPICAL, SAVANNA_TROPICAL
+
+WATERMELON
+- removed ANY_TROPICAL
+- added SAVANNA_TROPICAL, SHRUBLAND_TROPICAL
+- seeds are edible
+- added oil/soap from seeds
+
+WINTER_MELON
+- removed ANY_TROPICAL
+- added SHRUBLAND_TROPICAL, SAVANNA_TROPICAL
+- removed seeds from fruit
+
+LESSER_YAM
+- removed ANY_TROPICAL
+- added ANY_TROPICAL_FOREST, SHRUBLAND_TROPICAL, SAVANNA_TROPICAL, GRASSLAND_TROPICAL
+
+LONG_YAM
+- removed ANY_TEMPERATE
+- added ANY_TROPICAL_FOREST, SHRUBLAND_TROPICAL, SAVANNA_TROPICAL, GRASSLAND_TROPICAL
+
+PURPLE_YAM
+- set frequency to 0, exists domestically only
+
+WHITE_YAM
+- removed ANY_TROPICAL
+- added FOREST_TROPICAL_DRY_BROADLEAF, FOREST_TROPICAL_MOIST_BROADLEAF, SHRUBLAND_TROPICAL
+
+PASSION_FRUIT
+- removed ANY_TROPICAL
+- added ANY_TROPICAL_FOREST, SHRUBLAND_TROPICAL
+- removed seeds from fruit, somehow
+
+GRAPE
+- removed ANY_TEMPERATE
+- added GRASSLAND_TEMPERATE, SAVANNA_TEMPERATE
+- removed seeds from fruit
+
+CRANBERRY
+- removed biomes
+- added ANY_TEMPERATE_WETLAND
+- removed seeds from fruit
+
+BILBERRY
+- removed ANY_TEMPERATE
+- added ANY_TEMPERATE_WETLAND
+- removed seeds from fruit
+
+BLUEBERRY
+- removed ANY_TEMPERATE
+- added FOREST_TEMPERATE_CONIFER, ANY_TEMPERATE_WETLAND
+- removed seeds from fruit
+
+BLACKBERRY
+- removed ANY_TEMPERATE
+- added ANY_TEMPERATE_FOREST, SHRUBLAND_TEMPERATE
+- removed seeds from fruit
+
+RASPBERRY
+- removed ANY_TEMPERATE
+- added SHRUBLAND_TEMPERATE
+- removed seeds from fruit
+
+PINEAPPLE
+- removed ANY_TROPICAL
+- added ANY_TROPICAL_FOREST, SHRUBLAND_TROPICAL, SAVANNA_TROPICAL, GRASSLAND_TROPICAL
+
+### Trees
+
+ABACA
+- converted to shrub
+- allowed collection of leaves
+- added plant fiber material
+- removed ANY_TROPICAL
+- added FOREST_TROPICAL_MOIST_BROADLEAF
+
+BANANA
+- converted to shrub
+- removed ANY_TROPICAL
+- added FOREST_TROPICAL_MOIST_BROADLEAF, SWAMP_TROPICAL_FRESHWATER, MARSH_TROPICAL_FRESHWATER
+- removed seeds from fruit
+
+CARAMBOLA
+- removed ANY_TROPICAL
+- added SHRUBLAND_TROPICAL, FOREST_TROPICAL_DRY_BROADLEAF
+- set frequency to 10
+
+CASHEW
+- seeds are edible
+- removed ANY_TROPICAL
+- added SHRUBLAND_TROPICAL, FOREST_TROPICAL_DRY_BROADLEAF, FOREST_TROPICAL_MOIST_BROADLEAF
+- set frequency to 10
+
+COFFEE
+- removed ANY_TROPICAL
+- added SHRUBLAND_TROPICAL, SAVANNA_TROPICAL, FOREST_TROPICAL_DRY_BROADLEAF
+- removed seeds from fruit, for now
+
+DURIAN
+- removed ANY_TROPICAL
+- added FOREST_TROPICAL_MOIST_BROADLEAF
+- set frequency to 10
+
+GUAVA
+- added oil/soap from seed
+- removed ANY_TROPICAL
+- added FOREST_TROPICAL_DRY_BROADLEAF
+- set frequency to 10
+
+PAPAYA
+- seeds are edible
+- removed ANY_TROPICAL
+- added FOREST_TROPICAL_MOIST_BROADLEAF, ANY_TROPICAL_WETLAND
+- set frequency to 10
+
+PARADISE_NUT
+- removed ANY_TROPICAL
+- added FOREST_TROPICAL_MOIST_BROADLEAF, FOREST_TROPICAL_DRY_BROADLEAF, SWAMP_TROPICAL_FRESHWATER
+- set frequency to 10
+
+RAMBUTAN
+- removed ANY_TROPICAL
+- added SHRUBLAND_TROPICAL
+- set frequency to 10
+
+TEA
+- removed ANY_TROPICAL
+- added ANY_SHRUBLAND
+- set frequency to 10
+
+AVOCADO
+- removed ANY_TROPICAL
+- added ANY_TROPICAL_WETLAND
+- set frequency to 10
+- removed seeds from fruit
+
+LIME
+- removed ANY_TROPICAL
+- added ANY_TROPICAL_FOREST
+- set frequency to 0, artificial hybrid
+- seeds removed from fruit
+
+POMELO
+- removed ANY_TROPICAL
+- added SHRUBLAND_TROPICAL, SAVANNA_TROPICAL
+- set frequency to 10
+- seeds removed from fruit
+
+CITRON
+- removed ANY_TROPICAL
+- added FOREST_TROPICAL_CONIFER, SHRUBLAND_TROPICAL
+- set frequency to 10
+- removed seeds from fruit
+
+ORANGE
+- removed ANY_TROPICAL
+- added FOREST_TROPICAL_CONIFER
+- set frequency to 10
+- removed seeds from fruit
+
+BITTER_ORANGE
+- removed ANY_TROPICAL
+- added SHRUBLAND_TEMPERATE
+- set frequency to 10
+- removed seeds from fruit
+
+FINGER_LIME
+- removed ANY_TROPICAL
+- added FOREST_TROPICAL_DRY_BROADLEAF, FOREST_TROPICAL_MOIST_BROADLEAF
+- set frequency to 10
+- removed seeds from fruit
+
+ROUND_LIME
+- removed ANY_TROPICAL
+- added SHRUBLAND_TROPICAL
+- set frequency to 10
+- removed seeds from fruit
+
+DESERT_LIME
+- removed SHRUBLAND_TROPICAL
+- added ANY_DESERT
+- set frequency to 10
+- removed seeds from fruit
+
+KUMQUAT
+- removed ANY_TROPICAL
+- added SAVANNA_TROPICAL, SHRUBLAND_TROPICAL
+- set frequency to 10
+- removed seeds from fruit
+
+CUSTARD-APPLE
+- removed ANY_TROPICAL
+- added FOREST_TROPICAL_MOIST_BROADLEAF, ANY_TROPICAL_WETLAND, SHRUBLAND_TROPICAL, SAVANNA_TROPICAL
+- set frequency to 10
+- removed seeds from fruit
+
+DATE_PALM
+- removed ANY_TROPICAL
+- added ANY_DESERT, GRASSLAND_TROPICAL, FOREST_TROPICAL_DRY_BROADLEAF
+- set frequency to 10
+- removed seeds from fruit
+
+LYCHEE
+- removed ANY_TROPICAL
+- added FOREST_TROPICAL_MOIST_BROADLEAF
+- set frequency to 10
+- removed seeds from fruit
+
+MACADAMIA
+- removed ANY_TROPICAL
+- added FOREST_TROPICAL_MOIST_BROADLEAF
+- set frequency to 10
+
+OLIVE
+- removed ANY_TROPICAL
+- added SAVANNA_TROPICAL, SHRUBLAND_TROPICAL
+- set frequency to 15
+- removed seeds from fruit
+
+POMEGRANATE
+- seeds are edible
+- removed ANY_TROPICAL
+- added ANY_SAVANNA
+- set frequency to 20
+
+ALMOND
+- removed ANY_TEMPERATE
+- added SHRUBLAND_TEMPERATE, SAVANNA_TEMPERATE, GRASSLAND_TEMPERATE
+- set frequency to 20
+
+APPLE
+- added oil/soap from seeds
+- removed ANY_TEMPERATE
+- added ANY_TEMPERATE_FOREST, SAVANNA_TEMPERATE, SHRUBLAND_TEMPERATE, GRASSLAND_TEMPERATE
+- set frequency to 10
+
+APRICOT
+- added oil/soap from seeds
+- removed ANY_TEMPERATE
+- added SAVANNA_TEMPERATE, SHRUBLAND_TEMPERATE, ANY_TEMPERATE_FOREST
+- set frequency to 10
+
+BAYBERRY
+- removed ANY_TEMPERATE, TAIGA
+- added ANY_TEMPERATE_WETLAND, FOREST_TEMPERATE_CONIFER
+- set frequency to 10
+- removed seeds from fruit
+
+CHERRY
+- removed ANY_TEMPERATE
+- added ANY_TEMPERATE_FOREST, SHRUBLAND_TEMPERATE, SAVANNA_TEMPERATE, GRASSLAND_TEMPERATE
+- set frequency to 10
+- removed seeds from fruit
+
+GINGKO
+- removed ANY_TEMPERATE
+- added FOREST_TEMPERATE_BROADLEAF
+
+HAZEL
+- removed ANY_TEMPERATE
+- added ANY_TEMPERATE_FOREST
+- set frequency to 20
+
+PEACH
+- removed ANY_TEMPERATE
+- added SHRUBLAND_TEMPERATE, SAVANNA_TEMPERATE, ANY_TEMPERATE_FOREST
+- set frequency to 20
+
+PEAR
+- removed ANY_TEMPERATE
+- added FOREST_TEMPERATE_BROADLEAF, SHRUBLAND_TEMPERATE, SAVANNA_TEMPERATE, GRASSLAND_TEMPERATE
+- set frequency to 10
+- removed seeds from fruit
+
+PECAN
+- removed ANY_TEMPERATE
+- added FOREST_TEMPERATE_BROADLEAF, SWAMP_TEMPERATE_FRESHWATER, SAVANNA_TEMPERATE, SHRUBLAND_TEMPERATE
+- set frequency to 10
+
+PERSIMMON
+- seeds are edible
+- removed ANY_TEMPERATE
+- added SHRUBLAND_TEMPERATE, FOREST_TEMPERATE_BROADLEAF
+- set frequency to 10
+
+PLUM
+- removed ANY_TEMPERATE
+- added SHRUBLAND_TEMPERATE, ANY_TEMPERATE_FOREST
+
+SAND_PEAR
+- removed ANY_TEMPERATE
+- added SHRUBLAND_TEMPERATE
+- set frequency to 15
+
+WALNUT
+- added oil/soap
+- removed ANY_TEMPERATE
+- added ANY_TEMPERATE_FOREST, SHRUBLAND_TEMPERATE
+- set frequency to 10
+
+### Standard 
+
+BERRIES_STRAW
+- removed NOT_FREEZING
+- added ANY_TEMPERATE_FOREST, SHRUBLAND_TEMPERATE, SAVANNA_TEMPERATE, GRASSLAND_TEMPERATE, OCEAN_TEMPERATE
+
+MANGROVE
+- set frequency to 100
+
+SAGUARO
+- set frequency to 50
+
+PINE
+- added ANY_TEMPERATE_WETLAND
+- set frequency to 100
+
+CEDAR
+- removed FOREST_TROPICAL_CONIFER
+- set frequency to 100
+
+OAK
+- added acorn flour
+- seeds no longer edible
+- added FOREST_TEMPERATE_CONIFER
+- set frequency to 60
+
+MAHOGANY
+- removed ANY_TROPICAL_FOREST
+- added FOREST_TROPICAL_MOIST_BROADLEAF, FOREST_TROPICAL_DRY_BROADLEAF, ANY_TROPICAL_WETLAND
+- set frequency to 100
+
+ACACIA
+- added MARSH_TROPICAL_FRESHWATER, SWAMP_TROPICAL_FRESHWATER, ANY_DESERT
+- set frequency to 100
+
+KAPOK
+- added FOREST_TROPICAL_DRY_BROADLEAF
+- set frequency to 100
+
+MAPLE
+- removed GRASSLAND_TEMPERATE, SAVANNA_TEMPERATE, SHRUBLAND_TEMPERATE
+- set frequency to 60
+
+WILLOW
+- added TAIGA
+- set frequency to 100
+
+FEATHER
+- set frequency to 50
+
+HIGHWOOD
+- set frequency to 55
+
+LARCH
+- set frequency to 100
+
+CHESTNUT
+- set frequency to 10
+
+ALDER
+- set frequency to 60
+
+BIRCH
+- added TAIGA
+- set frequency to 60
+
+ASH
+- set frequency to 60
+
+CANDLENUT
+- removed ANY_TROPICAL_FOREST
+- added FOREST_TROPICAL_MOIST_BROADLEAF, FOREST_TROPICAL_DRY_BROADLEAF
+- set frequency to 20
+
+MANGO
+- added oil/soap from seed
+- removed ANY_TROPICAL_FOREST
+- added FOREST_TROPICAL_DRY_BROADLEAF, FOREST_TROPICAL_MOIST_BROADLEAF
+- set frequency to 10
+
+RUBBER
+- added ANY_TROPICAL_WETLAND
+- set frequency to 50
+
+CACAO
+- set frequency to 10
+
+PALM
+- added WET
+- removed ANY_TROPICAL
+- added OCEAN_TROPICAL, ANY_TROPICAL_WETLAND
+- frequency set to 20
